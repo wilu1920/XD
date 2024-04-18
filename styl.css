@@ -1,0 +1,27 @@
+body {
+    background-color: #b3e0f5; /* Jasny niebieski kolor tła */
+    font-family: Arial, sans-serif;
+}
+
+#counter {
+    font-size: 24px;
+    color: #333;
+}
+
+#snowflake {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    color: #fff;
+    animation: snowfall 5s infinite linear;
+}
+
+@keyframes snowfall {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
